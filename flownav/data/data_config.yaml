@@ -1,0 +1,29 @@
+
+# global params for diffusion model
+# normalized min and max
+action_stats:
+  min: [-2.5, -4] 
+  max: [5, 4] 
+
+
+# data specific params
+recon:
+  metric_waypoint_spacing: 0.25 
+
+scand:
+  metric_waypoint_spacing: 0.38
+
+tartan:
+  metric_waypoint_spacing: 0.72
+
+go_stanford:
+  metric_waypoint_spacing: 0.12
+
+custom:
+  metric_waypoint_spacing: 0.03 
+
+huron:
+  metric_waypoint_spacing: 0.2
+
+custom_05_23:
+  metric_waypoint_spacing: 0.05 
